@@ -14,7 +14,7 @@ function Hero({ inView, descRef }: { inView: boolean, descRef: any }) {
           ref={descRef}
           >
         <div className='flex'>
-          <h1 className='text-white text-6xl'>Hey I'm {inView} <span className='text-rose-400 text-6xl'> Tilak </span>  </h1>
+          <h1 className='text-white text-6xl'>Hey I am  {inView} <span className='text-rose-400 text-6xl'> Tilak </span>  </h1>
           <motion.div
             animate={{
               rotate: [0, 14, -8, 14, -4, 10, 0],
@@ -36,7 +36,7 @@ function Hero({ inView, descRef }: { inView: boolean, descRef: any }) {
               <Typewriter
                 options={{
                   delay: 30,
-                  strings: ["I'm a Web Developer and student at ASU"],
+                  strings: ["I am a Web Developer and student at ASU"],
                   loop: false,
                   autoStart: true,
                   deleteSpeed: 604800000,
