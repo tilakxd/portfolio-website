@@ -27,7 +27,7 @@ const Navbar = () => {
             <button onClick={handleClickScroll} className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 mx-2'>About Me</button>
             <button className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 mx-2'>Projects</button>
           </div>
-          <a href='https://github.com/framer/motion/issues/2398' target='_blank' className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 pt-1'>Source</a>
+          <a href='https://github.com/tilakxd/portfolio-website' target='_blank' className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 pt-1'>Source</a>
         </div>
       </nav>
     </motion.div>
