@@ -12,6 +12,16 @@ const Navbar = () => {
         });
     }
 };
+const handleClickScroll2 = () => {
+  const element = document.getElementById('projects');
+  if (element) {
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ 
+          top: elementPosition - 60,
+          behavior: 'smooth'
+      });
+  }
+};
   return (
     <motion.div
       initial={{ transform: 'translateY(-30px)', opacity: 0 }}
@@ -25,7 +35,7 @@ const Navbar = () => {
           <img draggable="false" src="/me.png" className='h-10 w-10' alt="" />
           <div className="flex">
             <button onClick={handleClickScroll} className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 mx-2'>About Me</button>
-            <button className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 mx-2'>Projects</button>
+            <button onClick={handleClickScroll2} className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 mx-2'>Projects</button>
           </div>
           <a href='https://github.com/tilakxd/portfolio-website' target='_blank' className='text-rose-400 hover:bg-rose-300 rounded-lg h-8 pt-1'>Source</a>
         </div>

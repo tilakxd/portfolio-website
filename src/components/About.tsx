@@ -19,8 +19,7 @@ function About() {
         <div className='px-6 py-3 w-full max-w-4xl border-2 border-red-400 rounded-md flex justify-center items-center flex-col my-6'>
             <h1 className='text-rose-400 text-3xl'>Overall</h1>
             <p className='text-red-300 text-center text-base'>I am currently a student at Arizona State (grad 2025) actively looking for a SWE internship for the summer of 2024. I am currently polishing my react and javascript skills while dabbling a little into the backend of web applications using express servers and MongoDB. On the side while balancing school courses such Machine Learning and intro to software engineering, I am also doing personal projects as well as learning python data structures and algorithms to do leetcode.  </p>
-        </div>
-        <div className='px-6 py-3 w-full max-w-4xl border-2 border-red-400 rounded-md flex justify-center items-center flex-col'>
+        <div className='px-6 py-3 w-full max-w-4xl rounded-md flex justify-center items-center flex-col'>
             <h1 className='text-rose-400 text-3xl'>Technologies</h1>
             <ul className='flex flex-row flex-wrap gap-2 justify-center mt-2'>
             <SocialIcon
@@ -75,6 +74,7 @@ function About() {
 
             </ul>
     
+        </div>
         </div>
         </motion.div>
     </section>
