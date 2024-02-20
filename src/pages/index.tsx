@@ -6,7 +6,7 @@ import About from '@/components/About'
 import { useInView } from 'react-intersection-observer';
 
 
-const index = () => {
+const Index = () => {
   const [ref, inView] = useInView({
     threshold: 0.01,
     triggerOnce: true,
@@ -21,4 +21,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
