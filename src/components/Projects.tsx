@@ -18,32 +18,44 @@ function Projects() {
           </h1>
           <div className='flex flex-col sm:flex-row gap-6 my-4'>
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url='./project1.png'
+              info="Revamped personal portfolio website using React, Next.js, Tailwind CSS, and Framer Motion. Enhances user experience with smooth animations and transitions. Ensure responsiveness and SEO optimization. Deployed the updated website with vercel."
+              title="Portfolio Website"
+              sourcefile="https://github.com/tilakxd/portfolio-website"
             />
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url=''
+              info="Currently in the Works"
+              title=""
+              sourcefile=""
             />
           </div>
           <div className='flex flex-col sm:flex-row gap-4'>
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url=''
+              info="Currently in the Works"
+              title=""
+              sourcefile=""
             />
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url=''
+              info="Currently in the Works"
+              title=""
+              sourcefile=""
             />
           </div>
           <div className='flex flex-col sm:flex-row gap-4 my-4'>
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url=''
+              info="Currently in the Works"
+              title=""
+              sourcefile=""
             />
             <ProjectCards
-              url='./test.png'
-              info="what do u mean ew0hf0 9few09u f090euw f0fw[09fuw f9weuF9UEWF 0[UFE09WUF0 E9UF90WEUF 0W9EUF09UE F0UEW09F U0H FOCSUIH DUHIHAIS FIAGF IUSHFISH FIA I"
+              url=''
+              info="Currently in the Works"
+              title=""
+              sourcefile=""
             />
           </div>
         </motion.div>
