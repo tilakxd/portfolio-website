@@ -20,7 +20,7 @@ function Projects() {
             <ProjectCards
               url='./project1.png'
               info="Revamped personal portfolio website using React, Next.js, Tailwind CSS, and Framer Motion. Enhances user experience with smooth animations and transitions. Ensure responsiveness and SEO optimization. Deployed the updated website with vercel."
-              title="Portfolio Website"
+              title="Portfolio"
               sourcefile="https://github.com/tilakxd/portfolio-website"
               demoLink=''
               liveDemo=''
